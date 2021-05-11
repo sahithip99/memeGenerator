@@ -1,9 +1,15 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import MemeGenerator from "Meme MemeGenerator"
+import Header from "Header"
+
 
 function App(){
     return(
-        <h1>Hello World!</h1>
+        <div>
+            <Header />
+            <MemeGenerator />
+        </div>
     )
 }
 

@@ -2,13 +2,18 @@ import React from "react"
 import ReactDOM, { render } from "react-dom"
 
 class MemeGenerator extends React.Component {
-
+    constructor() {
+        super()
+        this.state={
+    
+        }
+    }
+    render(){
+        return(
+            <h1></h1>
+        )
+    }
 }
-
-render(){
-    return(
-        <h1></h1>
-    )
-}
-
 export default MemeGenerator
+
+
